@@ -1,0 +1,16 @@
+build/
+build_sdk/
+**/__pycache__
+*.d
+*.o
+*.a
+*.so
+
+# Sample binaries
+sample/**/sample_*
+sample/sample_panel/lt9611/lt9611
+sample/venc/sample_vcodec
+sample/venc/sample_vcodec_asan
+
+# Submodule / external component
+component/isp/
